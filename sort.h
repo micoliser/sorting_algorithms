@@ -26,6 +26,6 @@ void insertion_sort_list(listint_t **);
 void swap_nodes(listint_t **, listint_t *, listint_t *);
 void selection_sort(int *, size_t);
 void quick_sort(int *, size_t);
-void _qsort(int *, int, int, int)
+void _qsort(int *, int, int, int);
 
 #endif
