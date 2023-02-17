@@ -37,7 +37,7 @@ void insertion_sort_list(listint_t **list)
 	listint_t *temp = *list, *temp2;
 	int swap;
 
-	if (!temp || !temp->next)
+	if (!(*list))
 		return;
 
 	while (temp->next)
